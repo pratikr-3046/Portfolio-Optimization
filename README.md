@@ -265,7 +265,7 @@ Rolling metrics provide insights into how portfolio characteristics evolved over
 
 ### 7.2 Limitations
 
-1. **Static Allocation**: The implementation used a buy-and-hold approach without rebalancing, which may have allowed portfolio weights to drift from optimal levels.
+1. **Static Allocation**: The implementation used a buy-and-hold approach without rebalancing, which may have allowed portfolio weights to drift from optimal levels. The conclusion is that staic allocation may help in the near future but will drift away from optimal slowly.
 
 2. **Transaction Costs**: The model does not account for transaction costs, taxes, or slippage.
 
